@@ -1,0 +1,153 @@
+.btn-default {
+    background: #00B4D7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 11px 35px;
+    box-shadow: 0px 5px 7px 1px rgb(15 16 19 / 8%);
+	text-transform: uppercase;
+}
+.section-padding{ padding:50px 0 44px; overflow:hidden; position:relative;}
+
+/*--------------------------------*/
+/*           3.Header
+/*--------------------------------*/
+
+.header {
+	min-height:650px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.header-text{margin:35% 0 0 0;}
+.header-text h1{ font-size:36px; font-weight:600; color:#143d3c}
+.header-text h5{color:#777; font-size:16px; font-weight:400; margin: 0 0 30px 0; line-height:26px;}
+.header-img{ margin:100px 0 0 0;}
+
+
+/*--------------------------------*/
+/*           2.Navbar
+/*--------------------------------*/
+.navbar {
+    background: #fff !important;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    font-size: 14px;
+}
+.nav-item a.nav-link{font-weight: 600;}
+/*--------------------------------*/
+/*           4.Counter
+/*--------------------------------*/
+.section-counter1 {
+    padding:5%;
+    max-width: inherit;
+    background: #00B4D7 0% 0% no-repeat padding-box;
+    margin-top: 5%;
+    opacity: 60%;
+}
+
+.section-counter {
+	background:#ECFCFB;
+    padding:20px 0 20px !important;
+}
+.section-counter .counter-item {
+    padding: 30px 0;
+}
+.counter-item h3{font-weight: 700;}
+/*--------------------------------*/
+/*           5.Title
+/*--------------------------------*/
+.section-bluetitle{ padding:100px 0 0; overflow:hidden; position:relative;}
+.bluetitle{
+    color: #00B4D7;
+    font-size: 44px;
+    font-weight: 700;
+}
+.bluetitle-subtitle{font-size: 30px;}
+.title{
+    color: #00B4D7;
+    font-size: 29px;
+}
+.about-title{
+    color: #00B4D7;
+    font-size: 36px;
+}
+.subtitle{font-size: 13px;}
+
+/*--------------------------------*/
+/*           6.About
+/*--------------------------------*/
+.font-19{font-size: 19px;}
+.font-18{font-size: 18px;}
+.font-24{font-size: 24px;
+margin-top: 5%}
+.font-weight-400{font-weight: 400; font-size: 28px;}
+.about-right{margin-top: 40px;}
+/*--------------------------------*/
+/*           7.Contact
+/*--------------------------------*/
+.contact{background: #262626; padding: 70px 0;}
+.form-group {
+    margin-bottom: 2rem;
+}
+.form-control {
+    height: 55px;
+    border-radius: 5px;
+    background: #262626;
+    color: #777;
+    border: 2px solid #00B4D7;
+}
+.contact form{margin:50px 0 0 0;}
+
+@media screen and (max-width:500px) {
+    .flex-direction{
+      display: inline-block;
+      justify-content: center;
+      margin: 0;
+    }
+    .quote-text{
+      font-size: 16px;
+    }
+    .contact-info {
+      margin-left: 15%;
+      margin-top: 1%;
+  }
+    .location-info {
+      margin-left: 16%;
+      margin-top: 11%;
+      /* display: inline-block; */
+  }
+  .email-info {
+    margin-left: 16%;
+    display: inline-block;
+  }
+  customized-quote{
+    margin-left: 29%;
+    
+  }
+  
+  }
+  @media screen and (max-width:1000px) {
+  
+    .quote-text{
+      font-size: 20;
+    }
+    .quote{
+      max-width: 100px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .contact-info {
+      margin-left: 15%;
+      margin-top: 1%;
+  }
+    .location-info {
+      margin-left: 16%;
+      margin-top: 11%;
+      /* display: inline-block; */
+  }
+  .email-info {
+    margin-left: 16%;
+    display: inline-block;
+  }
+  }
